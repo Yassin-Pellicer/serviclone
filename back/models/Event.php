@@ -2,7 +2,7 @@
 require_once dirname(__DIR__) . '/config/Database.php';
 
 class Event {
-    private $conn;
+    private $conn; 
     private $table = 'event';
 
     public function __construct() {
